@@ -1,0 +1,44 @@
+body {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCont {
+    font-size: 30px;
+
+}
+
+
+.prodCont {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.chatCont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.messageCont {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: flex-start;
+}
+
+.ulMessage {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.userBar {
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
